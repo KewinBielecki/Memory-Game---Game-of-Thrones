@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'GOT';
+    src: url('../game_of_thrones/Game of Thrones.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 10%;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    font-family: GOT;
+}
+
+
+
+
+.container {
+    height: 100%;
+    width: 100%;
+    border: none;
+    display: table;
+    border-collapse: collapse;
+    background-image: url('../images/backgroundGOT.jpg');
+}
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+.text {
+    fill: url(#gr-radial);
+}
+
+/* Other styles */
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #0d0f22 -webkit-linear-gradient(0deg, #8faa48 50%, #933019 50%);
+    background: #0d0f22 linear-gradient(90deg, #8faa48 50%, #933019 50%);
+    background-size: .2em 100%;
+    font: 126px Open Sans, Impact;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+svg {
+    top : 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.backgroundDiv {
+    display: flex;
+    height: 85%;
+    width: 100%;
+    background: lightgray;
+    border: none;
+    overflow: hidden;
+}
+
+
+div {
+    height: 16.66%;
+    width: 16.66%;
+    border: 4px dotted rgba(179, 179, 179, 0.35);
+    flex-wrap: wrap;
+}
+
+
+.tyrion {
+    background-image: url('../images/tyrion.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.jonsnow {
+    background-image: url('../images/jonsnow.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.daenerys {
+    background-image: url('../images/daenerys.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.arya {
+    background-image: url('../images/arya.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.sansa {
+    background-image: url('../images/sansa.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.davos {
+    background-image: url('../images/davos.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.jaime {
+    background-image: url('../images/jaime.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.ogar {
+    background-image: url('../images/ogar.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.ned {
+    background-image: url('../images/ned.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.tormund {
+    background-image: url('../images/tormund.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.beric {
+    background-image: url('../images/beric.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.cersei {
+    background-image: url('../images/cersei.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.themountain {
+    background-image: url('../images/themountain.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.nightking {
+    background-image: url('../images/nightking.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.melisandre {
+    background-image: url('../images/melisandre.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.varys {
+    background-image: url('../images/varys.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.robertbaratheon {
+    background-image: url('../images/robertbaratheon.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.jorah {
+    background-image: url('../images/jorah.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+.hidden {
+    background-image: url('../images/got1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.off {
+    background-color: #b3b3b3;
+}
+
+.time {
+    font-size: 16%;
+    position: absolute;
+    right: 3%;
+    top: 40%;
+}
+
+.footer {
+    font-size: 10%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .header {
+        display: none;
+    }
+
+
+    .backgroundDiv {
+        height: 100%;
+    }
+}
